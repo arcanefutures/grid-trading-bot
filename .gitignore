@@ -1,3 +1,8 @@
 .env*
 venv
 __pycache__
+Code.txt
+console_output.txt
+get_data.__pycache__
+**/logs/*
+**/reports/*
