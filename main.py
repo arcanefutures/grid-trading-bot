@@ -45,7 +45,7 @@ if __name__ == "__main__":
         os.makedirs('logs')
 
     # You can choose which symbol to backtest from your configured list
-    symbols_to_backtest = ["ADA_USD"] # Start with one symbol for clarity
+    symbols_to_backtest = ["LINK_USD"] # Start with one symbol for clarity
     
     # If you want to backtest all symbols iteratively:
     # symbols_to_backtest = GRID_STRATEGY_PARAMS["symbols"] 

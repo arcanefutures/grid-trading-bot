@@ -32,7 +32,7 @@ GRID_STRATEGY_PARAMS = {
 
     "profit_per_grid_percentage": 0.02, # Target profit percentage per grid level move (e.g., 0.02 for 2%)
     
-    "initial_position_type": "neutral", # How the bot initializes its position ('neutral', 'cash_only')
+    "initial_position_type": "cash_only", # How the bot initializes its position ('neutral', 'cash_only')
     "initial_long_position_amount_usd": 0.0, # If starting with specific crypto amount (not used by 'neutral' type)
 
     "global_max_drawdown_percentage": 0.20, # Global stop loss percentage from peak equity
@@ -40,4 +40,5 @@ GRID_STRATEGY_PARAMS = {
     # --- NEW: Simulated Slippage and Max Order Size ---
     "simulated_slippage_percentage": 0.0005, # e.g., 0.0005 for 0.05% slippage on each leg (buy/sell)
     "max_order_size_usd": 5000.0, # Maximum USD amount for a single order, regardless of equity
+    "adx_stable_readings_required": 5, # Or your preferred number (e.g., 3-5)
 }

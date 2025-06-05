@@ -5,3 +5,4 @@ pandas-ta
 python-dotenv
 websockets
 matplotlib
+python-dotenv
